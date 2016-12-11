@@ -61,6 +61,10 @@ h3, h4 {
     padding: 1.5em 0 .5em;
 }
 
+h6 {
+  display: none;
+}
+
 h2 a {
     color: #333;
 }
@@ -217,6 +221,10 @@ article figure {
 .ad {
   padding: .5em 5.5% 4em 5.5%;
   margin-bottom: 2em;
+}
+
+.ad h6 {
+  display: none;
 }
 
 .declare {
@@ -472,6 +480,10 @@ p a:focus, p a:hover {
   .nw a,
   .mise {
     display: block;
+  }
+
+  .mist h6 {
+    display: none
   }
 
   .nw {
